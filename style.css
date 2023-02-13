@@ -121,7 +121,7 @@ body {
 
 .settings .task-menu {
   position: absolute;
-  padding: 5px 0;
+  padding: 5px 0px;
   right: -5px;
   bottom: -65px;
   z-index: 2;
