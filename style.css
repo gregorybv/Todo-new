@@ -40,7 +40,7 @@ body {
   outline: none;
   border-radius: 5px;
   border: 1px solid #999;
-  padding: 0 20px 0 53px;
+  padding: 0px 20px 0px 53px;
 }
 
 .task-input input::placeholder {
