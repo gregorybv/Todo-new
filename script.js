@@ -46,12 +46,6 @@ function showTodo(filter) {
 
 showTodo("all");
 
-
-function getTaskView() {
-
-}
-
-
 function showMenu(selectedTask) {
   // получение меню задачи div
   let taskMenu = selectedTask.parentElement.lastElementChild;
@@ -113,7 +107,7 @@ taskInput.addEventListener("keyup", e => {
       todos[editId].name = userTask;
     }
     taskInput.value = "";
-    localStorage.setItem("todo-list", JSON.stringify(todos));
+    localStorage.setItem("todo-list", JSON.stringify(todos)); // передаем значение в localStorage
     showTodo("all");
   }
 });
